@@ -11,6 +11,8 @@ Take your iOS app development to the next level with AvatarKit, a powerful frame
 
 AvatarKit empowers Swift developers with a comprehensive set of tools and features for crafting expressive avatars in their applications. From Memoji and Animoji support to flexible customization and real-time animation, AvatarKit is your go-to solution for bringing avatars to life.
 
+![Memoji header](memojis-header)
+
 ## Key features
 
 - Memoji and Animoji Support: Design and animate personalized memojis and animojis to enhance user engagement.
