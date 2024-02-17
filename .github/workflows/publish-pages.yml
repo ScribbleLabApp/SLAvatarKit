@@ -35,7 +35,7 @@ jobs:
             transform-for-static-hosting /tmp/docbuild/Build/Products/Debug-iphoneos/SLAvatarKit.doccarchive \
             --hosting-base-path ScribbleLab \
             --output-path docs;
-          echo "<script>window.location.href += \"/documentation/avatarkit\"</script>" > docs/index.html;
+          echo "<script>window.location.href += \"/documentation/slavatarkit\"</script>" > docs/index.html;
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
