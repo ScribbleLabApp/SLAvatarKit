@@ -33,7 +33,7 @@ jobs:
             -destination 'generic/platform=iOS' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO;
           $(xcrun --find docc) process-archive \
             transform-for-static-hosting /tmp/docbuild/Build/Products/Debug-iphoneos/SLAvatarKit.doccarchive \
-            --hosting-base-path ScribbleLab \
+            --hosting-base-path SLAvatarKit \
             --output-path docs;
           echo "<script>window.location.href += \"/documentation/slavatarkit\"</script>" > docs/index.html;
       - name: Upload artifact
