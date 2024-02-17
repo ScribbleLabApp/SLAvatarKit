@@ -71,6 +71,8 @@
 		388472992B811A1A00D61AEE /* SLAvatarKit */ = {
 			isa = PBXGroup;
 			children = (
+				388472B22B8120A700D61AEE /* AvatarKit */,
+				388472B12B81209D00D61AEE /* AvatarKitUI */,
 				3884729A2B811A1A00D61AEE /* SLAvatarKit.h */,
 				3884729B2B811A1A00D61AEE /* SLAvatarKit.docc */,
 			);
@@ -83,6 +85,20 @@
 				388472A62B811A1A00D61AEE /* SLAvatarKitTests.swift */,
 			);
 			path = SLAvatarKitTests;
+			sourceTree = "<group>";
+		};
+		388472B12B81209D00D61AEE /* AvatarKitUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AvatarKitUI;
+			sourceTree = "<group>";
+		};
+		388472B22B8120A700D61AEE /* AvatarKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AvatarKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +367,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -389,7 +405,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
