@@ -1,7 +1,11 @@
 ![LinkedIn cover - 5](https://github.com/ScribbleLabApp/AvatarKit/assets/129311622/a9e420df-9f79-4ef9-b3e8-0adcb98c887c)
-# SLAvatarKit
 
+# SLAvatarKit
 SLAvatarKit is a powerful and flexible library for creating expressive and dynamic avatars, including memojis and animojis. It serves as a compelling alternative to Apple's private AvatarKit, allowing developers to integrate customizable avatar features seamlessly into their iOS applications.
+
+> [!NOTE]
+> AvatarKit is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/AvatarKit/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/AvatarKit/issues).
+
 
 ## Features
 - Memoji and Animoji Support: Design and animate personalized memojis and animojis to enhance user engagement.
