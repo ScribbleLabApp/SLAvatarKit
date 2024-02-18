@@ -1,0 +1,73 @@
+name: 🔴 Bug report
+description: Something is not working as expected.
+title: "[BUG]: {description}"
+labels: 
+  - "type: bug"
+  - "needs review"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!!!
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: >-
+        A clear and concise description of what the bug is...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Version
+      placeholder: >-
+        Please tell us which version you're using. Follow our Guide under Settings -> Info and Settings -> Help
+         - SLAvatarKit version [e.g. 1.0.0]
+         - iOS version [e.g. 17.0.3]
+         - iPadOS version [e.g. 17.0.3]
+         - macOS version [e.g. 14.0]
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: >-
+        Steps to reliably reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      placeholder: >-
+        A clear and concise description of what you expected to happen...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      placeholder: >-
+        Any other context or considerations about the bug...
+
+  - type: textarea
+    attributes:
+      label: Screenshots
+      placeholder: >-
+        If applicable, please provide relevant screenshots or screen recordings...
+
+  - type: checkboxes
+    id: new-bug
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true

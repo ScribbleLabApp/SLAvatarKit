@@ -1,0 +1,42 @@
+name: 🙋 Question
+description: Questions about this project
+title: "[Question]: {description}"
+labels: "type: question"
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: >-
+        A clear and concise description of what you would like to ask...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What can we do?
+      placeholder: >-
+        Any alternative solutions or features you've considered...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      placeholder: >-
+        Any other context or considerations about this question...
+
+  - type: textarea
+    attributes:
+      label: Screenshots
+      placeholder: >-
+        If applicable, please provide relevant screenshots or screen recordings...
+
+  - type: checkboxes
+    id: new-question
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the feature you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
