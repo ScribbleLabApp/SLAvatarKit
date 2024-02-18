@@ -26,7 +26,7 @@ jobs:
     runs-on: macos-13
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Select Xcode Version ✨
         run: |
           sudo xcode-select -switch /Applications/Xcode_15.0.1.app/Contents/Developer
@@ -44,7 +44,7 @@ jobs:
             --output-path docs;
           echo "<script>window.location.href += \"/documentation/slavatarkit\"</script>" > docs/index.html;
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           # Upload only docs directory
           path: 'docs'
