@@ -149,6 +149,9 @@
 		388472BE2B82456500D61AEE /* Memojis */ = {
 			isa = PBXGroup;
 			children = (
+				388472D82B8291C200D61AEE /* Views */,
+				388472D72B8291BA00D61AEE /* Service */,
+				388472D62B8291B200D61AEE /* Include */,
 			);
 			path = Memojis;
 			sourceTree = "<group>";
@@ -210,6 +213,27 @@
 			children = (
 				388472D02B828F6B00D61AEE /* AAVRecordView.m */,
 				388472D42B828FFF00D61AEE /* AAnimoji.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		388472D62B8291B200D61AEE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		388472D72B8291BA00D61AEE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		388472D82B8291C200D61AEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Views;
 			sourceTree = "<group>";
