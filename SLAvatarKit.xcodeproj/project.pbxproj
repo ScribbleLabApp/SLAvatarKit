@@ -11,6 +11,9 @@
 		388472A22B811A1A00D61AEE /* SLAvatarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388472972B811A1A00D61AEE /* SLAvatarKit.framework */; };
 		388472A72B811A1A00D61AEE /* SLAvatarKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472A62B811A1A00D61AEE /* SLAvatarKitTests.swift */; };
 		388472A82B811A1A00D61AEE /* SLAvatarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3884729A2B811A1A00D61AEE /* SLAvatarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388472B52B8235E600D61AEE /* AAvatarManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472B42B8235E600D61AEE /* AAvatarManagement.swift */; };
+		388472B92B8239FD00D61AEE /* AAvatarManagementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */; };
+		388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		3884729B2B811A1A00D61AEE /* SLAvatarKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SLAvatarKit.docc; sourceTree = "<group>"; };
 		388472A12B811A1A00D61AEE /* SLAvatarKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLAvatarKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388472A62B811A1A00D61AEE /* SLAvatarKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAvatarKitTests.swift; sourceTree = "<group>"; };
+		388472B42B8235E600D61AEE /* AAvatarManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAvatarManagement.swift; sourceTree = "<group>"; };
+		388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAvatarManagementModel.m; sourceTree = "<group>"; };
+		388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAvatarManagementModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		388472B12B81209D00D61AEE /* AvatarKitUI */ = {
 			isa = PBXGroup;
 			children = (
+				388472B32B8235D300D61AEE /* Management */,
 			);
 			path = AvatarKitUI;
 			sourceTree = "<group>";
@@ -101,6 +108,16 @@
 			path = AvatarKit;
 			sourceTree = "<group>";
 		};
+		388472B32B8235D300D61AEE /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				388472B42B8235E600D61AEE /* AAvatarManagement.swift */,
+				388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */,
+				388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -108,6 +125,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */,
 				388472A82B811A1A00D61AEE /* SLAvatarKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +181,7 @@
 				TargetAttributes = {
 					388472962B811A1A00D61AEE = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					388472A02B811A1A00D61AEE = {
 						CreatedOnToolsVersion = 15.2;
@@ -210,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388472B92B8239FD00D61AEE /* AAvatarManagementModel.m in Sources */,
 				3884729C2B811A1A00D61AEE /* SLAvatarKit.docc in Sources */,
+				388472B52B8235E600D61AEE /* AAvatarManagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +377,7 @@
 		388472AC2B811A1A00D61AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -386,6 +408,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,6 +417,7 @@
 		388472AD2B811A1A00D61AEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -432,6 +456,7 @@
 		388472AF2B811A1A00D61AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W93RMB5CDG;
@@ -452,6 +477,7 @@
 		388472B02B811A1A00D61AEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W93RMB5CDG;
