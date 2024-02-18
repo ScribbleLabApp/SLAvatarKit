@@ -20,3 +20,7 @@ FOUNDATION_EXPORT const unsigned char SLAvatarKitVersionString[];
 
 //! Animoji recoding view
 #import <SLAvatarKit/AAnimojiView.h>
+
+#import <SLAvatarKit/AAVRecordView.h>
+
+#import <SLAvatarKit/AAnimoji.h>
