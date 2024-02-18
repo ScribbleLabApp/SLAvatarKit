@@ -13,7 +13,8 @@
 		388472A82B811A1A00D61AEE /* SLAvatarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3884729A2B811A1A00D61AEE /* SLAvatarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		388472B52B8235E600D61AEE /* AAvatarManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472B42B8235E600D61AEE /* AAvatarManagement.swift */; };
 		388472B92B8239FD00D61AEE /* AAvatarManagementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */; };
-		388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */; };
+		388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388472C22B82462000D61AEE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388472C12B82462000D61AEE /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		388472B42B8235E600D61AEE /* AAvatarManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAvatarManagement.swift; sourceTree = "<group>"; };
 		388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAvatarManagementModel.m; sourceTree = "<group>"; };
 		388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAvatarManagementModel.h; sourceTree = "<group>"; };
+		388472C12B82462000D61AEE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 		388472B12B81209D00D61AEE /* AvatarKitUI */ = {
 			isa = PBXGroup;
 			children = (
-				388472B32B8235D300D61AEE /* Management */,
+				388472C32B8248C400D61AEE /* Core */,
+				388472C02B82461000D61AEE /* Resources */,
 			);
 			path = AvatarKitUI;
 			sourceTree = "<group>";
@@ -104,6 +107,10 @@
 		388472B22B8120A700D61AEE /* AvatarKit */ = {
 			isa = PBXGroup;
 			children = (
+				388472C42B8249B500D61AEE /* Core */,
+				388472BF2B82457500D61AEE /* Animojis */,
+				388472BE2B82456500D61AEE /* Memojis */,
+				388472BC2B82454700D61AEE /* Include */,
 			);
 			path = AvatarKit;
 			sourceTree = "<group>";
@@ -116,6 +123,50 @@
 				388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */,
 			);
 			path = Management;
+			sourceTree = "<group>";
+		};
+		388472BC2B82454700D61AEE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		388472BE2B82456500D61AEE /* Memojis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memojis;
+			sourceTree = "<group>";
+		};
+		388472BF2B82457500D61AEE /* Animojis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animojis;
+			sourceTree = "<group>";
+		};
+		388472C02B82461000D61AEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				388472C12B82462000D61AEE /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		388472C32B8248C400D61AEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				388472B32B8235D300D61AEE /* Management */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		388472C42B8249B500D61AEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388472C22B82462000D61AEE /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

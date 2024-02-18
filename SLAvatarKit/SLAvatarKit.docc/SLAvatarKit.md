@@ -38,6 +38,9 @@ AvatarKit empowers Swift developers with a comprehensive set of tools and featur
 - <doc:getting-started>
 - <doc:samplecode>
 
+### Manager
+- <doc:AAvatarManagementModel>
+
 ### Shaders
 
 ### UI Libary
