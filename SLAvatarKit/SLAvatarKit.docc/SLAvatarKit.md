@@ -2,6 +2,8 @@
 
 @Metadata {
     @PageColor(yellow)
+    @SupportedLanguage(swift) 
+    @SupportedLanguage(objc) 
 }
 
 Take your iOS app development to the next level with AvatarKit, a powerful framework for creating captivating and dynamic avatars. AvatarKit allows you to design and animate personalized memojis and animojis, providing a seamless and engaging user experience.
@@ -25,14 +27,21 @@ AvatarKit empowers Swift developers with a comprehensive set of tools and featur
 
 ### Featured Samples
 @Links(visualStyle: detailedGrid) {
-    
+    - <doc:getting-started>
+    - <doc:samplecode>
 }
 
 ## Topics
 
 ### Essentials
 
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+- <doc:getting-started>
+- <doc:samplecode>
+
+### Shaders
+
+### UI Libary
 
 ### Framework Integration
+
 
