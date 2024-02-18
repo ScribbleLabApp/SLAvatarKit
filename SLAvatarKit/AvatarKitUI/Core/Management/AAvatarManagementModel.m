@@ -15,4 +15,8 @@
     NSLog(@"Create Avatar!");
 }
 
+- (void)loadAvatars {
+    NSLog(@"DEBUG: Load Avatars");
+}
+
 @end

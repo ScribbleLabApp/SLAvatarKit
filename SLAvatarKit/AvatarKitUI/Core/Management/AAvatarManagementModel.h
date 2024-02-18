@@ -31,4 +31,6 @@
  */
 - (void)createAvatar;
 
+- (void)loadAvatars;
+
 @end
