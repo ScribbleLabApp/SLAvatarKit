@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char SLAvatarKitVersionString[];
 
 //! Managing Aavatars
 #import <SLAvatarKit/AAvatarManagementModel.h>
+
+#import <SLAvatarKit/AAnimojiView.h>

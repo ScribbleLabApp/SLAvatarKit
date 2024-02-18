@@ -16,7 +16,7 @@
 		388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		388472C22B82462000D61AEE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388472C12B82462000D61AEE /* Media.xcassets */; };
 		388472C62B828B6C00D61AEE /* AAnimoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472C52B828B6C00D61AEE /* AAnimoji.swift */; };
-		388472C92B828C3500D61AEE /* AAnimojiView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472C82B828C3500D61AEE /* AAnimojiView.h */; };
+		388472C92B828C3500D61AEE /* AAnimojiView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472C82B828C3500D61AEE /* AAnimojiView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		388472CB2B828CC600D61AEE /* AAnimojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472CA2B828CC600D61AEE /* AAnimojiView.m */; };
 /* End PBXBuildFile section */
 
