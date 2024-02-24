@@ -16,11 +16,11 @@ FOUNDATION_EXPORT const unsigned char SLAvatarKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SLAvatarKit/PublicHeader.h>
 
 //! Managing Avatars
-#import <SLAvatarKit/AAvatarManagementModel.h>
+#import <SLAvatarKit/AFAvatarManagementModel.h>
 
 //! Animoji recoding view
-#import <SLAvatarKit/AAnimojiView.h>
+#import <SLAvatarKit/AFAnimojiView.h>
 
-#import <SLAvatarKit/AAVRecordView.h>
+#import <SLAvatarKit/AFVRecordView.h>
 
-#import <SLAvatarKit/AAnimoji.h>
+#import <SLAvatarKit/AFAnimoji.h>

@@ -8,49 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		3884729C2B811A1A00D61AEE /* SLAvatarKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3884729B2B811A1A00D61AEE /* SLAvatarKit.docc */; };
-		388472A22B811A1A00D61AEE /* SLAvatarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388472972B811A1A00D61AEE /* SLAvatarKit.framework */; };
-		388472A72B811A1A00D61AEE /* SLAvatarKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472A62B811A1A00D61AEE /* SLAvatarKitTests.swift */; };
 		388472A82B811A1A00D61AEE /* SLAvatarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3884729A2B811A1A00D61AEE /* SLAvatarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		388472B52B8235E600D61AEE /* AAvatarManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472B42B8235E600D61AEE /* AAvatarManagement.swift */; };
-		388472B92B8239FD00D61AEE /* AAvatarManagementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */; };
-		388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388472B52B8235E600D61AEE /* AFAvatarManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472B42B8235E600D61AEE /* AFAvatarManagement.swift */; };
+		388472B92B8239FD00D61AEE /* AFAvatarManagementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472B82B8239FD00D61AEE /* AFAvatarManagementModel.m */; };
+		388472BB2B823AB600D61AEE /* AFAvatarManagementModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472BA2B823AB600D61AEE /* AFAvatarManagementModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		388472C22B82462000D61AEE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388472C12B82462000D61AEE /* Media.xcassets */; };
 		388472C62B828B6C00D61AEE /* AAnimoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472C52B828B6C00D61AEE /* AAnimoji.swift */; };
-		388472C92B828C3500D61AEE /* AAnimojiView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472C82B828C3500D61AEE /* AAnimojiView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		388472CB2B828CC600D61AEE /* AAnimojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472CA2B828CC600D61AEE /* AAnimojiView.m */; };
-		388472CE2B828E9F00D61AEE /* AAVRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472CD2B828E9F00D61AEE /* AAVRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		388472D12B828F6B00D61AEE /* AAVRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472D02B828F6B00D61AEE /* AAVRecordView.m */; };
-		388472D32B828FE200D61AEE /* AAnimoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472D22B828FE200D61AEE /* AAnimoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		388472D52B828FFF00D61AEE /* AAnimoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472D42B828FFF00D61AEE /* AAnimoji.m */; };
+		388472C92B828C3500D61AEE /* AFAnimojiView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472C82B828C3500D61AEE /* AFAnimojiView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388472CB2B828CC600D61AEE /* AFAnimojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472CA2B828CC600D61AEE /* AFAnimojiView.m */; };
+		388472CE2B828E9F00D61AEE /* AFVRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472CD2B828E9F00D61AEE /* AFVRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388472D12B828F6B00D61AEE /* AFVRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472D02B828F6B00D61AEE /* AFVRecordView.m */; };
+		388472D32B828FE200D61AEE /* AFAnimoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472D22B828FE200D61AEE /* AFAnimoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388472D52B828FFF00D61AEE /* AFAnimoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472D42B828FFF00D61AEE /* AFAnimoji.m */; };
+		388473532B8A196100D61AEE /* AFAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388473522B8A196100D61AEE /* AFAgreement.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		388472A32B811A1A00D61AEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3884728E2B811A1A00D61AEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 388472962B811A1A00D61AEE;
-			remoteInfo = SLAvatarKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		388472972B811A1A00D61AEE /* SLAvatarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLAvatarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3884729A2B811A1A00D61AEE /* SLAvatarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAvatarKit.h; sourceTree = "<group>"; };
 		3884729B2B811A1A00D61AEE /* SLAvatarKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SLAvatarKit.docc; sourceTree = "<group>"; };
-		388472A12B811A1A00D61AEE /* SLAvatarKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLAvatarKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		388472A62B811A1A00D61AEE /* SLAvatarKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAvatarKitTests.swift; sourceTree = "<group>"; };
-		388472B42B8235E600D61AEE /* AAvatarManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAvatarManagement.swift; sourceTree = "<group>"; };
-		388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAvatarManagementModel.m; sourceTree = "<group>"; };
-		388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAvatarManagementModel.h; sourceTree = "<group>"; };
+		388472B42B8235E600D61AEE /* AFAvatarManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFAvatarManagement.swift; sourceTree = "<group>"; };
+		388472B82B8239FD00D61AEE /* AFAvatarManagementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAvatarManagementModel.m; sourceTree = "<group>"; };
+		388472BA2B823AB600D61AEE /* AFAvatarManagementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAvatarManagementModel.h; sourceTree = "<group>"; };
 		388472C12B82462000D61AEE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		388472C52B828B6C00D61AEE /* AAnimoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAnimoji.swift; sourceTree = "<group>"; };
-		388472C82B828C3500D61AEE /* AAnimojiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAnimojiView.h; sourceTree = "<group>"; };
-		388472CA2B828CC600D61AEE /* AAnimojiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAnimojiView.m; sourceTree = "<group>"; };
-		388472CD2B828E9F00D61AEE /* AAVRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAVRecordView.h; sourceTree = "<group>"; };
-		388472D02B828F6B00D61AEE /* AAVRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAVRecordView.m; sourceTree = "<group>"; };
-		388472D22B828FE200D61AEE /* AAnimoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAnimoji.h; sourceTree = "<group>"; };
-		388472D42B828FFF00D61AEE /* AAnimoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAnimoji.m; sourceTree = "<group>"; };
+		388472C82B828C3500D61AEE /* AFAnimojiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAnimojiView.h; sourceTree = "<group>"; };
+		388472CA2B828CC600D61AEE /* AFAnimojiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAnimojiView.m; sourceTree = "<group>"; };
+		388472CD2B828E9F00D61AEE /* AFVRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFVRecordView.h; sourceTree = "<group>"; };
+		388472D02B828F6B00D61AEE /* AFVRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFVRecordView.m; sourceTree = "<group>"; };
+		388472D22B828FE200D61AEE /* AFAnimoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAnimoji.h; sourceTree = "<group>"; };
+		388472D42B828FFF00D61AEE /* AFAnimoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAnimoji.m; sourceTree = "<group>"; };
+		388473522B8A196100D61AEE /* AFAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFAgreement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3884729E2B811A1A00D61AEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				388472A22B811A1A00D61AEE /* SLAvatarKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				388472992B811A1A00D61AEE /* SLAvatarKit */,
-				388472A52B811A1A00D61AEE /* SLAvatarKitTests */,
 				388472982B811A1A00D61AEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				388472972B811A1A00D61AEE /* SLAvatarKit.framework */,
-				388472A12B811A1A00D61AEE /* SLAvatarKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,14 +77,6 @@
 				3884729B2B811A1A00D61AEE /* SLAvatarKit.docc */,
 			);
 			path = SLAvatarKit;
-			sourceTree = "<group>";
-		};
-		388472A52B811A1A00D61AEE /* SLAvatarKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				388472A62B811A1A00D61AEE /* SLAvatarKitTests.swift */,
-			);
-			path = SLAvatarKitTests;
 			sourceTree = "<group>";
 		};
 		388472B12B81209D00D61AEE /* AvatarKitUI */ = {
@@ -132,9 +102,9 @@
 		388472B32B8235D300D61AEE /* Management */ = {
 			isa = PBXGroup;
 			children = (
-				388472B42B8235E600D61AEE /* AAvatarManagement.swift */,
-				388472B82B8239FD00D61AEE /* AAvatarManagementModel.m */,
-				388472BA2B823AB600D61AEE /* AAvatarManagementModel.h */,
+				388472B42B8235E600D61AEE /* AFAvatarManagement.swift */,
+				388472B82B8239FD00D61AEE /* AFAvatarManagementModel.m */,
+				388472BA2B823AB600D61AEE /* AFAvatarManagementModel.h */,
 			);
 			path = Management;
 			sourceTree = "<group>";
@@ -177,6 +147,7 @@
 		388472C32B8248C400D61AEE /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				388473512B8A190D00D61AEE /* Agreement */,
 				388472B32B8235D300D61AEE /* Management */,
 			);
 			path = Core;
@@ -193,8 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				388472C52B828B6C00D61AEE /* AAnimoji.swift */,
-				388472C82B828C3500D61AEE /* AAnimojiView.h */,
-				388472CA2B828CC600D61AEE /* AAnimojiView.m */,
+				388472C82B828C3500D61AEE /* AFAnimojiView.h */,
+				388472CA2B828CC600D61AEE /* AFAnimojiView.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -202,8 +173,8 @@
 		388472CC2B828E5E00D61AEE /* Include */ = {
 			isa = PBXGroup;
 			children = (
-				388472CD2B828E9F00D61AEE /* AAVRecordView.h */,
-				388472D22B828FE200D61AEE /* AAnimoji.h */,
+				388472CD2B828E9F00D61AEE /* AFVRecordView.h */,
+				388472D22B828FE200D61AEE /* AFAnimoji.h */,
 			);
 			path = Include;
 			sourceTree = "<group>";
@@ -211,8 +182,8 @@
 		388472CF2B828F5600D61AEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				388472D02B828F6B00D61AEE /* AAVRecordView.m */,
-				388472D42B828FFF00D61AEE /* AAnimoji.m */,
+				388472D02B828F6B00D61AEE /* AFVRecordView.m */,
+				388472D42B828FFF00D61AEE /* AFAnimoji.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +209,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		388473512B8A190D00D61AEE /* Agreement */ = {
+			isa = PBXGroup;
+			children = (
+				388473522B8A196100D61AEE /* AFAgreement.swift */,
+			);
+			path = Agreement;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -245,11 +224,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388472BB2B823AB600D61AEE /* AAvatarManagementModel.h in Headers */,
-				388472D32B828FE200D61AEE /* AAnimoji.h in Headers */,
-				388472C92B828C3500D61AEE /* AAnimojiView.h in Headers */,
+				388472BB2B823AB600D61AEE /* AFAvatarManagementModel.h in Headers */,
+				388472D32B828FE200D61AEE /* AFAnimoji.h in Headers */,
+				388472C92B828C3500D61AEE /* AFAnimojiView.h in Headers */,
 				388472A82B811A1A00D61AEE /* SLAvatarKit.h in Headers */,
-				388472CE2B828E9F00D61AEE /* AAVRecordView.h in Headers */,
+				388472CE2B828E9F00D61AEE /* AFVRecordView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,24 +253,6 @@
 			productReference = 388472972B811A1A00D61AEE /* SLAvatarKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		388472A02B811A1A00D61AEE /* SLAvatarKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 388472AE2B811A1A00D61AEE /* Build configuration list for PBXNativeTarget "SLAvatarKitTests" */;
-			buildPhases = (
-				3884729D2B811A1A00D61AEE /* Sources */,
-				3884729E2B811A1A00D61AEE /* Frameworks */,
-				3884729F2B811A1A00D61AEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				388472A42B811A1A00D61AEE /* PBXTargetDependency */,
-			);
-			name = SLAvatarKitTests;
-			productName = SLAvatarKitTests;
-			productReference = 388472A12B811A1A00D61AEE /* SLAvatarKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,9 +266,6 @@
 					388472962B811A1A00D61AEE = {
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
-					};
-					388472A02B811A1A00D61AEE = {
-						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -325,7 +283,6 @@
 			projectRoot = "";
 			targets = (
 				388472962B811A1A00D61AEE /* SLAvatarKit */,
-				388472A02B811A1A00D61AEE /* SLAvatarKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,13 +296,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3884729F2B811A1A00D61AEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -353,33 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388472D12B828F6B00D61AEE /* AAVRecordView.m in Sources */,
-				388472B92B8239FD00D61AEE /* AAvatarManagementModel.m in Sources */,
+				388472D12B828F6B00D61AEE /* AFVRecordView.m in Sources */,
+				388472B92B8239FD00D61AEE /* AFAvatarManagementModel.m in Sources */,
 				388472C62B828B6C00D61AEE /* AAnimoji.swift in Sources */,
-				388472D52B828FFF00D61AEE /* AAnimoji.m in Sources */,
+				388473532B8A196100D61AEE /* AFAgreement.swift in Sources */,
+				388472D52B828FFF00D61AEE /* AFAnimoji.m in Sources */,
 				3884729C2B811A1A00D61AEE /* SLAvatarKit.docc in Sources */,
-				388472B52B8235E600D61AEE /* AAvatarManagement.swift in Sources */,
-				388472CB2B828CC600D61AEE /* AAnimojiView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3884729D2B811A1A00D61AEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				388472A72B811A1A00D61AEE /* SLAvatarKitTests.swift in Sources */,
+				388472B52B8235E600D61AEE /* AFAvatarManagement.swift in Sources */,
+				388472CB2B828CC600D61AEE /* AFAnimojiView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		388472A42B811A1A00D61AEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 388472962B811A1A00D61AEE /* SLAvatarKit */;
-			targetProxy = 388472A32B811A1A00D61AEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		388472A92B811A1A00D61AEE /* Debug */ = {
@@ -581,48 +516,6 @@
 			};
 			name = Release;
 		};
-		388472AF2B811A1A00D61AEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLAvatarKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		388472B02B811A1A00D61AEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLAvatarKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -640,15 +533,6 @@
 			buildConfigurations = (
 				388472AC2B811A1A00D61AEE /* Debug */,
 				388472AD2B811A1A00D61AEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		388472AE2B811A1A00D61AEE /* Build configuration list for PBXNativeTarget "SLAvatarKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				388472AF2B811A1A00D61AEE /* Debug */,
-				388472B02B811A1A00D61AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

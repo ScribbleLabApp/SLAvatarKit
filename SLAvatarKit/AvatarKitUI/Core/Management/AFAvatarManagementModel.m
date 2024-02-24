@@ -6,10 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AAvatarManagementModel.h"
+#import "AFAvatarManagementModel.h"
 
 
-@implementation AAvatarManagementModel
+@implementation AFAvatarManagementModel
 
 - (void)createAvatar {
     NSLog(@"Create Avatar!");

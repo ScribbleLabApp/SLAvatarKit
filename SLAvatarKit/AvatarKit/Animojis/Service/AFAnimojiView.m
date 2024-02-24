@@ -1,13 +1,14 @@
 //
-//  AAVRecordView.m
+//  AAnimojiView.m
 //  SLAvatarKit
 //
 //  Created by Nevio Hirani on 18.02.24.
 //
 
 #import <Foundation/Foundation.h>
-#import "../Include/AAVRecordView.h"
+#import "AFAnimojiView.h"
+#import <objc/runtime.h>
 
-@implementation AAVRecordView
+@interface AFAnimojiView ()
 
 @end

@@ -1,5 +1,5 @@
 //
-//  AAvatarManagementModel.h
+//  AFAvatarManagementModel.h
 //  SLAvatarKit
 //
 //  Created by Nevio Hirani on 18.02.24.
@@ -8,9 +8,9 @@
 #import <Foundation/Foundation.h>
 
 /**
- `AAvatarManagementModel` is a class that provides functionality related to avatar management.
+ `AFAvatarManagementModel` is a class that provides functionality related to avatar management.
  */
-@interface AAvatarManagementModel : NSObject
+@interface AFAvatarManagementModel : NSObject
 
 /**
  Creates an avatar.

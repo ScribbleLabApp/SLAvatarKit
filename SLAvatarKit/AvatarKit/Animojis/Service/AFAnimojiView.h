@@ -1,5 +1,5 @@
 //
-//  AAnimojiView.h
+//  AFAnimojiView.h
 //  SLAvatarKit
 //
 //  Created by Nevio Hirani on 18.02.24.
@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <SceneKit/SceneKit.h>
 
-@interface AAnimojiView : SCNView
+@interface AFAnimojiView : SCNView
 
 - (void)setPuppetName: (NSString *)puppetName;
 + (NSArray *)puppetName;

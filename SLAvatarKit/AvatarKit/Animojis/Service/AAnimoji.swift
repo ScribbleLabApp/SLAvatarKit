@@ -8,7 +8,7 @@
 import Foundation
 import SceneKit
 
-public protocol AAnimojiDelegate: AnyObject {
+public protocol AFAnimojiDelegate: AnyObject {
     func didFinishPlaying(_ animoji: Animoji)
     func didStartRecording(_ animoji: Animoji)
     func didStopRecording(_ animoji: Animoji)

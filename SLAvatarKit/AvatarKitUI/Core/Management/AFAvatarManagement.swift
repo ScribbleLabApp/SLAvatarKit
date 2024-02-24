@@ -1,5 +1,5 @@
 //
-//  AAvatarManagement.swift
+//  AFAvatarManagement.swift
 //  SLAvatarKit
 //
 //  Created by Nevio Hirani on 18.02.24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// `AAvatarManagement` is a SwiftUI view for managing avatars within the SLAvatarKit framework.
+/// `AFAvatarManagement` is a SwiftUI view for managing avatars within the SLAvatarKit framework.
 ///
 /// - Parameters:
 ///   - url: The URL to direct users for more information about avatar creation and management.
@@ -15,18 +15,20 @@ import SwiftUI
 /// This view provides a user interface for creating, managing, and customizing avatars on ScribbleLab. Users can explore various features related to avatars, including creation, management, and access to security and privacy settings.
 ///
 /// - Note: Ensure the URL is a valid and accessible resource.
-struct AAvatarManagement: View {
+struct AFAvatarManagement: View {
     @Environment(\.dismiss) var dismiss
     @Environment(\.openURL) var openURL
     
     let url: String
+    let appName: String
     
-    /// Creates an instance of `AAvatarManagement`.
+    /// Creates an instance of `AFAvatarManagement`.
     /// - Parameters:
     ///   - url: The URL to direct users for more information about avatar creation and management.
     /// - Note: Ensure the URL is a valid and accessible resource.
-    init(url: String) {
+    init(url: String, appName: String) {
         self.url = url
+        self.appName = appName
     }
     
     @State private var createAvartarSheet: Bool = false
@@ -50,7 +52,7 @@ struct AAvatarManagement: View {
                                     .font(.headline)
                                 
                                 VStack(alignment: .leading) {
-                                    Text("Express Yourself Beyond Words – Unleash the Power of Your Avatar on ScribbleLab")
+                                    Text("Express Yourself Beyond Words – Unleash the Power of Your Avatar on \(appName)")
                                         .font(.subheadline)
                                         .multilineTextAlignment(.center)
                                         .foregroundStyle(.secondary)
