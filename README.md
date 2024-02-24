@@ -16,6 +16,24 @@ SLAvatarKit is a powerful and flexible library for creating expressive and dynam
 
 - Easy Integration: Simple and intuitive API for seamless integration into your iOS projects.
 
+## Apps that are relying on SLAvatarKit
+<table>
+  <tr>
+  <td align="center">
+      <a href="https://github.com/ScribbleLabApp/ScribbleCompose">
+        <img src="https://github.com/ScribbleLabApp/AvatarKit/assets/129311622/1aa7ddd8-9cd1-45f2-8014-5bbcfe38c2b3" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;ScribbleLab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ScribbleLabApp/ScribbleCompose">
+        <img src="https://github.com/ScribbleLabApp/AvatarKit/assets/129311622/1aa7ddd8-9cd1-45f2-8014-5bbcfe38c2b3" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;ScribbleLink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Support Us
 Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
 
