@@ -21,6 +21,7 @@
 		388472D32B828FE200D61AEE /* AFAnimoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 388472D22B828FE200D61AEE /* AFAnimoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		388472D52B828FFF00D61AEE /* AFAnimoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472D42B828FFF00D61AEE /* AFAnimoji.m */; };
 		388473532B8A196100D61AEE /* AFAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388473522B8A196100D61AEE /* AFAgreement.swift */; };
+		388473552B8A622300D61AEE /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388473542B8A622300D61AEE /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		388472D22B828FE200D61AEE /* AFAnimoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAnimoji.h; sourceTree = "<group>"; };
 		388472D42B828FFF00D61AEE /* AFAnimoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAnimoji.m; sourceTree = "<group>"; };
 		388473522B8A196100D61AEE /* AFAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFAgreement.swift; sourceTree = "<group>"; };
+		388473542B8A622300D61AEE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				388472B12B81209D00D61AEE /* AvatarKitUI */,
 				3884729A2B811A1A00D61AEE /* SLAvatarKit.h */,
 				3884729B2B811A1A00D61AEE /* SLAvatarKit.docc */,
+				388473542B8A622300D61AEE /* Package.swift */,
 			);
 			path = SLAvatarKit;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				388472D12B828F6B00D61AEE /* AFVRecordView.m in Sources */,
 				388472B92B8239FD00D61AEE /* AFAvatarManagementModel.m in Sources */,
 				388472C62B828B6C00D61AEE /* AAnimoji.swift in Sources */,
+				388473552B8A622300D61AEE /* Package.swift in Sources */,
 				388473532B8A196100D61AEE /* AFAgreement.swift in Sources */,
 				388472D52B828FFF00D61AEE /* AFAnimoji.m in Sources */,
 				3884729C2B811A1A00D61AEE /* SLAvatarKit.docc in Sources */,

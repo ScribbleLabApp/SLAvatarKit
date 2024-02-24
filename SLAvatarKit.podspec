@@ -7,7 +7,10 @@ Pod::Spec.new do |s|
   s.author           = { 'ScribbleLabApp' => 'scribblelabapp.dev@gmail.com' }
   s.documentation_url = 'https://scribblelabapp.github.io/AvatarKit/'
   s.source           = { :git => 'https://github.com/ScribbleLabApp/AvatarKit.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '16.1'
-  s.swift_version = '5.0'
+  s.swift_version = '5.9'
+
+  s.ios.deployment_target = '17.1'
+  s.osx.deployment_target = '14.1'
+
   s.source_files = 'Sources/**/*.{swift,h,m}'
 end
