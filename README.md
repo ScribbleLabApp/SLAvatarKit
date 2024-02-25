@@ -96,6 +96,11 @@ Contributions are welcome here for coders and non-coders alike. No matter what y
 
 If you encounter ANY issue, have ANY concerns, or ANY comments, please do NOT hesitate to let us know. Open a discussion, issue, or [email us](scribblelabapp.dev@gmail.com). As a developer, we feel you when you don't understand something in the codebase. We try to comment and document as best as we can, but if you happen to encounter any issues, we will be happy to assist in any way we can.
 
+## Contributors
+We would like to express our gratitude to all the individuals who have already contributed to AvatarKit! If you have any AvatarKit-related project, documentation, tool or template, please feel free to contribute it by submitting a pull request to our curated list on GitHub.
+
+![Contributors](https://github.com/ScribbleLabApp/AvatarKit/graphs/contributors)
+
 ## Support Us
 Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
 
