@@ -8,13 +8,13 @@ SLAvatarKit is a powerful and flexible library for creating expressive and dynam
 
 
 ## Features
-- Memoji and Animoji Support: Design and animate personalized memojis and animojis to enhance user engagement.
+- **Memoji and Animoji Support:** Design and animate personalized memojis and animojis to enhance user engagement.
 
-- Flexible Customization: Tailor avatars to suit your app's unique style with a range of customizable features, including facial expressions, accessories, and more.
+- **Flexible Customization:** Tailor avatars to suit your app's unique style with a range of customizable features, including facial expressions, accessories, and more.
 
-- Real-time Animation: Bring avatars to life with real-time animation capabilities, providing a captivating user experience.
+- **Real-time Animation:** Bring avatars to life with real-time animation capabilities, providing a captivating user experience.
 
-- Easy Integration: Simple and intuitive API for seamless integration into your iOS projects.
+- **Easy Integration:** Simple and intuitive API for seamless integration into your iOS projects.
 
 ## Requirements
 - iOS 17.1+
@@ -69,6 +69,9 @@ You must provide a description for how your app uses the following privacy setti
 ## Apps that are relying on _``SLAvatarKit``_
 - [ScribbleLab](https://github.com/ScribbleLabApp/ScribbleLab)
 - [ScribbleLink](https://github.com/ScribbleLabApp/ScribbleLink)
+
+## Featured Sample projects
+- AvatarExplorer for [SwiftUI](https://github.com/ScribbleLabApp/AvatarKit/tree/main/Example/swift-sample/avatar-explorer_swift) and [Obj-C](https://github.com/ScribbleLabApp/AvatarKit/tree/main/Example/objc-sample/avatar-explorer-objc)
 
 ## Support Us
 Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
