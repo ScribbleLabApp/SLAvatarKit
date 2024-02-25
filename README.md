@@ -16,24 +16,27 @@ SLAvatarKit is a powerful and flexible library for creating expressive and dynam
 
 - **Easy Integration:** Simple and intuitive API for seamless integration into your iOS projects.
 
-## Requirements
+## 🖥️ Installation
+
+### Requirements
 - iOS 17.1+
 - Xcode 15.2+
 - Swift 5.9 (SLAvatarKit 1.x.x) `(legacy support later)`
 
-## Usage
+### Install
 
-## Installation
+#### Swift Package Manager (recommended)
+You can install `SLAvatarKit` into your Xcode project via SPM. To learn more about SPM, click [here](https://swift.org/package-manager/)
 
-### Swift Package Manager
-You can install `SLAvatarKit` using Swift Package Manager.
+1. In Xcode 12, open your project and navigate to File → Swift Packages → Add Package Dependency...
 
-1. In Xcode, select "File" > "Add Package Dependencies".
-2. Copy & paste the following link into the "Search or Enter Package URL" search bar,
-```
-https://github.com/ScribbleLabApp/AvatarKit.git
-```
-3. Xcode will fetch the repsoitory & the `SLAvatarKit` libary will be added to your project. 
+For Xcode 13, navigate to **Files → Add Package**
+1. Paste the repository URL (https://github.com/ScribbleLabApp/AvatarKit.git) and click Next.
+2. For Version, verify it's **Up to next major**.
+3. Click Next and select the 
+(You don't need to add SLAvatarKitUI or SLAvatarKitCore)
+4. Click Finish
+5. You are all set, thank you for using SLAvatarKit!
 
 You can also add it to the dependencies of your `Package.swift` file:
 ```swift
@@ -42,18 +45,28 @@ dependencies: [
 ]
 ```
 
-### CocoaPods
+#### CocoaPods (Deprecated)
 To install with [CocoaPods](http://cocoapods.org/), simply add this in your Podfile:
 ```ruby
-use framework!
-pod "SLAvatarKit"
+platform :ios, '17.0'
+
+target 'test abstract' do
+  use_frameworks!
+  pod 'SLAvatarKit'
+
+end
 ```
 
-### Carthage
+#### Carthage (Deprecated)
 To install with [Carthage](https://github.com/Carthage/Carthage), simply add this in your `Cartfile`:
 ```ruby
 github "ScribbleLabApp/SLAvatarKit"
 ```
+
+## 🚀 Quickstart
+> Before you start, please star ⭐️ this repository. Your star is our biggest motivation to pull all-nighters and maintain this open-source project. If you like the idea behind this project, please share it with your friends, colleagues, or anyone who might find it valuable.
+
+## 🛠️ Usage
 
 ## Privacy Settings
 
