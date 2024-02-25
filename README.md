@@ -6,6 +6,8 @@ SLAvatarKit is a powerful and flexible library for creating expressive and dynam
 > [!NOTE]
 > AvatarKit is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/AvatarKit/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/AvatarKit/issues).
 
+> The AvatarExplorer sample project is associated with SLAvatarKit. Check it out here:
+> [SwiftUI](https://github.com/ScribbleLabApp/AvatarKit/tree/main/Example/swift-sample/avatar-explorer_swift) | [Obj-C](https://github.com/ScribbleLabApp/AvatarKit/tree/main/Example/objc-sample/avatar-explorer-objc)
 
 ## Features
 - **Memoji and Animoji Support:** Design and animate personalized memojis and animojis to enhance user engagement.
@@ -68,7 +70,7 @@ github "ScribbleLabApp/SLAvatarKit"
 
 ## 🛠️ Usage
 
-## Privacy Settings
+### Privacy Settings
 
 You must provide a description for how your app uses the following privacy settings in your app's Info.plist file. Add those keys to your `Info.plist` file:
 
@@ -79,12 +81,20 @@ You must provide a description for how your app uses the following privacy setti
 <string>We need to access your camera to create unique Animojis for you.</string>
 ```
 
-## Apps that are relying on _``SLAvatarKit``_
-- [ScribbleLab](https://github.com/ScribbleLabApp/ScribbleLab)
-- [ScribbleLink](https://github.com/ScribbleLabApp/ScribbleLink)
+## 📖 Cheatsheet
+### Modifiers
 
-## Featured Sample projects
-- AvatarExplorer for [SwiftUI](https://github.com/ScribbleLabApp/AvatarKit/tree/main/Example/swift-sample/avatar-explorer_swift) and [Obj-C](https://github.com/ScribbleLabApp/AvatarKit/tree/main/Example/objc-sample/avatar-explorer-objc)
+### Parameters
+
+### Views
+
+## 🧰 Supported Avatar types
+
+## 💪 Contribute
+
+Contributions are welcome here for coders and non-coders alike. No matter what your skill level is, you can for certain contribute to SLAvatarKit's open source community. Please read Contributing.md and the step-by-setp guide before starting.
+
+If you encounter ANY issue, have ANY concerns, or ANY comments, please do NOT hesitate to let us know. Open a discussion, issue, or [email us](scribblelabapp.dev@gmail.com). As a developer, we feel you when you don't understand something in the codebase. We try to comment and document as best as we can, but if you happen to encounter any issues, we will be happy to assist in any way we can.
 
 ## Support Us
 Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
