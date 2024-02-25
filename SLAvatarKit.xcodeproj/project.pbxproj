@@ -22,6 +22,7 @@
 		388472D52B828FFF00D61AEE /* AFAnimoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 388472D42B828FFF00D61AEE /* AFAnimoji.m */; };
 		388473532B8A196100D61AEE /* AFAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388473522B8A196100D61AEE /* AFAgreement.swift */; };
 		388473552B8A622300D61AEE /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388473542B8A622300D61AEE /* Package.swift */; };
+		388473592B8B49B300D61AEE /* Test.mm in Sources */ = {isa = PBXBuildFile; fileRef = 388473582B8B49B300D61AEE /* Test.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		388472D42B828FFF00D61AEE /* AFAnimoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAnimoji.m; sourceTree = "<group>"; };
 		388473522B8A196100D61AEE /* AFAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFAgreement.swift; sourceTree = "<group>"; };
 		388473542B8A622300D61AEE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		388473582B8B49B300D61AEE /* Test.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Test.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				388472D02B828F6B00D61AEE /* AFVRecordView.m */,
 				388472D42B828FFF00D61AEE /* AFAnimoji.m */,
+				388473582B8B49B300D61AEE /* Test.mm */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				388472C62B828B6C00D61AEE /* AAnimoji.swift in Sources */,
 				388473552B8A622300D61AEE /* Package.swift in Sources */,
 				388473532B8A196100D61AEE /* AFAgreement.swift in Sources */,
+				388473592B8B49B300D61AEE /* Test.mm in Sources */,
 				388472D52B828FFF00D61AEE /* AFAnimoji.m in Sources */,
 				3884729C2B811A1A00D61AEE /* SLAvatarKit.docc in Sources */,
 				388472B52B8235E600D61AEE /* AFAvatarManagement.swift in Sources */,
