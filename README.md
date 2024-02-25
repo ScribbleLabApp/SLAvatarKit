@@ -16,23 +16,59 @@ SLAvatarKit is a powerful and flexible library for creating expressive and dynam
 
 - Easy Integration: Simple and intuitive API for seamless integration into your iOS projects.
 
-## Apps that are relying on SLAvatarKit
-<table>
-  <tr>
-  <td align="center">
-      <a href="https://github.com/ScribbleLabApp/ScribbleCompose">
-        <img src="https://github.com/ScribbleLabApp/AvatarKit/assets/129311622/1aa7ddd8-9cd1-45f2-8014-5bbcfe38c2b3" height="128">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;ScribbleLab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/ScribbleLabApp/ScribbleCompose">
-        <img src="https://github.com/ScribbleLabApp/AvatarKit/assets/129311622/1aa7ddd8-9cd1-45f2-8014-5bbcfe38c2b3" height="128">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;ScribbleLink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-      </a>
-    </td>
-  </tr>
-</table>
+## Requirements
+- iOS 17.1+
+- Xcode 15.2+
+- Swift 5.9 (SLAvatarKit 1.x.x) `(legacy support later)`
+
+## Usage
+
+## Installation
+
+### Swift Package Manager
+You can install `SLAvatarKit` using Swift Package Manager.
+
+1. In Xcode, select "File" > "Add Package Dependencies".
+2. Copy & paste the following link into the "Search or Enter Package URL" search bar,
+```
+https://github.com/ScribbleLabApp/AvatarKit.git
+```
+3. Xcode will fetch the repsoitory & the `SLAvatarKit` libary will be added to your project. 
+
+You can also add it to the dependencies of your `Package.swift` file:
+```swift
+dependencies: [
+  .package(url: "https://github.com/ScribbleLabApp/AvatarKit", .upToNextMajor(from: "1.0.0"))
+]
+```
+
+### CocoaPods
+To install with [CocoaPods](http://cocoapods.org/), simply add this in your Podfile:
+```ruby
+use framework!
+pod "SLAvatarKit"
+```
+
+### Carthage
+To install with [Carthage](https://github.com/Carthage/Carthage), simply add this in your `Cartfile`:
+```ruby
+github "ScribbleLabApp/SLAvatarKit"
+```
+
+## Privacy Settings
+
+You must provide a description for how your app uses the following privacy settings in your app's Info.plist file. Add those keys to your `Info.plist` file:
+
+```plist
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>We need access to your PhotoLibary to store and save your created avatar.</string>
+<key>NSCameraUsageDescription</key>
+<string>We need to access your camera to create unique Animojis for you.</string>
+```
+
+## Apps that are relying on _``SLAvatarKit``_
+- [ScribbleLab](https://github.com/ScribbleLabApp/ScribbleLab)
+- [ScribbleLink](https://github.com/ScribbleLabApp/ScribbleLink)
 
 ## Support Us
 Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
