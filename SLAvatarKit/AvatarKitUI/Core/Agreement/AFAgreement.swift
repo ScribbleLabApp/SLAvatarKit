@@ -17,7 +17,7 @@ struct AFAgreement: View {
     
     var body: some View {
         VStack {
-            Image(.memojisHeader)
+            Image("memojisHeader")
                 .resizable()
                 .scaledToFit()
                 .frame(width: UIScreen.main.bounds.width, alignment: .center)

@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '17.1'
   s.osx.deployment_target = '14.1'
 
-  s.source_files = 'Sources/**/*.{swift,h,m}'
+  s.source_files = 'SLAvatarKit/**/*.{swift,h,m}'
 end
