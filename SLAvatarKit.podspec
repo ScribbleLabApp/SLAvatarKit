@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SLAvatarKit'
-  s.version          = '1.0.0'
+  s.version          = '0.0.1-dev.1'
   s.summary          = 'Take your iOS app development to the next level with AvatarKit, a powerful framework for creating captivating and dynamic avatars. AvatarKit allows you to design and animate personalized memojis and animojis, providing a seamless and engaging user experience.'
   s.homepage         = 'https://github.com/ScribbleLabApp/AvatarKit'
   s.license          = { :type => 'AGPL-3.0', :file => 'LICENSE' }
